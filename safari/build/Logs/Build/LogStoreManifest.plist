@@ -6,7 +6,7 @@
 	<integer>13</integer>
 	<key>logs</key>
 	<dict>
-		<key>97F019B8-D793-4CC8-A72B-2E5679341CED</key>
+		<key>45D98A9F-3A45-43A5-AE41-E0F16CFA6F0F</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>97F019B8-D793-4CC8-A72B-2E5679341CED.xcactivitylog</string>
+			<string>45D98A9F-3A45-43A5-AE41-E0F16CFA6F0F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,15 +40,15 @@
 			<key>signature</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>812769469.81842899</real>
+			<real>812770874.84584904</real>
 			<key>timeStoppedRecording</key>
-			<real>812769472.09410501</real>
+			<real>812770884.25653398</real>
 			<key>title</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>97F019B8-D793-4CC8-A72B-2E5679341CED</string>
+			<string>45D98A9F-3A45-43A5-AE41-E0F16CFA6F0F</string>
 		</dict>
-		<key>A8C08329-8606-4F36-A4D0-DF267B1C3F13</key>
+		<key>B941F554-517D-49DB-BDAC-546C9C6FB373</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>A8C08329-8606-4F36-A4D0-DF267B1C3F13.xcactivitylog</string>
+			<string>B941F554-517D-49DB-BDAC-546C9C6FB373.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>812769532.22625697</real>
+			<real>812770933.37075901</real>
 			<key>timeStoppedRecording</key>
-			<real>812769533.81050897</real>
+			<real>812770936.72567594</real>
 			<key>title</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>A8C08329-8606-4F36-A4D0-DF267B1C3F13</string>
+			<string>B941F554-517D-49DB-BDAC-546C9C6FB373</string>
 		</dict>
 	</dict>
 </dict>

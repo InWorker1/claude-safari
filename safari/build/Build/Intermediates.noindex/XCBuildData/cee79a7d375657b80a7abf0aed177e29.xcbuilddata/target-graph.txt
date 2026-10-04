@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'Claude for Safari' in project 'Claude for Safari'
+➜ Explicit dependency on target 'Claude for Safari Extension' in project 'Claude for Safari'
+Target 'Claude for Safari Extension' in project 'Claude for Safari' (no dependencies)

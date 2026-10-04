@@ -1,0 +1,69 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "e9b03a2246aa640801065adba473a1f741b545ff77c7a4d817c038856b080f72"
+    }
+  ],
+  "containerPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/Claude for Safari/Claude for Safari.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "hostTargetedPlatform" : null,
+      "platform" : "macosx",
+      "sdk" : "macosx27.0",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Products",
+      "derivedDataPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/build",
+      "indexDataStoreFolderPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "-",
+          "CODE_SIGN_STYLE" : "Manual",
+          "DEVELOPMENT_TEAM" : ""
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "112",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

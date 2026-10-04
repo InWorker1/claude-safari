@@ -2,6 +2,7 @@
 import { makeAskAboutPage } from '../application/askAboutPage.js';
 import { makeBrowserPageReader } from '../adapters/browserPageReader.js';
 import { makeBridgeClient } from '../adapters/bridgeClient.js';
+import { renderMarkdown } from './renderMarkdown.js';
 
 const ask = makeAskAboutPage({
   readPage: makeBrowserPageReader(globalThis.browser ?? globalThis.chrome),
@@ -29,7 +30,7 @@ form.addEventListener('submit', async (e) => {
   answer.className = '';
   answer.textContent = 'Думаю…';
   try {
-    answer.textContent = await ask(question.value, model.value);
+    answer.innerHTML = renderMarkdown(await ask(question.value, model.value));
   } catch (err) {
     answer.className = 'error';
     answer.textContent = err.message;

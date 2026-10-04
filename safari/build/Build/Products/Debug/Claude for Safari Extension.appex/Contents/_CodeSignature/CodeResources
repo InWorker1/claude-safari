@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/popup.html</key>
 		<data>
-		dYfdY4nX//1NrZjGC1lotsv30PU=
+		KN32MzI8tNZhFYJ9WZXdZGx3v5c=
 		</data>
 		<key>Resources/src/adapters/bridgeClient.js</key>
 		<data>
@@ -30,7 +30,11 @@
 		</data>
 		<key>Resources/src/ui/popup.js</key>
 		<data>
-		WXja8gtjNt79rR7fkJEH3Xm936M=
+		SjVexKlLttpVOKJZUbe+8rb5uXw=
+		</data>
+		<key>Resources/src/ui/renderMarkdown.js</key>
+		<data>
+		Xz0dJJGfmRL+B1YtT85vx8aB9dQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -64,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHYElJYalYc8q7XnQYDrl0wRZeLR0PyJIohvRlaUkyg=
+			EJUItihA2nWzx+q323GCDvOMlAp0Gr5/Nz+FDL3chkg=
 			</data>
 		</dict>
 		<key>Resources/src/adapters/bridgeClient.js</key>
@@ -99,7 +103,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRzj0DOorAfgL0+rHW7jl3Nl6fx7UZIWTgqUOB3Db4g=
+			LWOlrqkj9RHLcrhqUBoic88DqhsQEKM3KsFWNq++7BI=
+			</data>
+		</dict>
+		<key>Resources/src/ui/renderMarkdown.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H0BN1UloeT3uWY+HxBmhwt9WffY4+lTVN8fzLDpOkkk=
 			</data>
 		</dict>
 	</dict>

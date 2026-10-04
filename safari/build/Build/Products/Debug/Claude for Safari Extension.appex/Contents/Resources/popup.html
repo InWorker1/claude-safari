@@ -9,8 +9,19 @@
     textarea { resize: vertical; min-height: 60px; font: inherit; padding: 6px; }
     .row { display: flex; justify-content: space-between; align-items: center; }
     button { padding: 4px 14px; }
-    #answer { white-space: pre-wrap; margin-top: 10px; max-height: 400px; overflow-y: auto; }
-    #answer.error { color: #d33; }
+    #answer { margin-top: 10px; max-height: 400px; overflow-y: auto; line-height: 1.45; }
+    #answer.error { color: #d33; white-space: pre-wrap; }
+    #answer > :first-child { margin-top: 0; }
+    #answer p, #answer ul, #answer ol, #answer pre { margin: 0 0 8px; }
+    #answer ul, #answer ol { padding-left: 20px; }
+    #answer li { margin: 2px 0; }
+    #answer h3, #answer h4, #answer h5 { margin: 12px 0 6px; font-size: 14px; }
+    #answer h5 { font-size: 13px; }
+    #answer code { font: 12px ui-monospace, Menlo, monospace; background: rgba(127, 127, 127, .15); padding: 1px 4px; border-radius: 4px; }
+    #answer pre { background: rgba(127, 127, 127, .15); padding: 8px; border-radius: 6px; overflow-x: auto; }
+    #answer pre code { background: none; padding: 0; }
+    #answer hr { border: none; border-top: 1px solid rgba(127, 127, 127, .3); margin: 10px 0; }
+    #answer a { color: #2a7ae2; }
   </style>
 </head>
 <body>
