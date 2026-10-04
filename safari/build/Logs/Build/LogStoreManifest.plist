@@ -6,7 +6,7 @@
 	<integer>13</integer>
 	<key>logs</key>
 	<dict>
-		<key>45D98A9F-3A45-43A5-AE41-E0F16CFA6F0F</key>
+		<key>65E9AB80-CFA2-43F2-A97E-47472102A259</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>45D98A9F-3A45-43A5-AE41-E0F16CFA6F0F.xcactivitylog</string>
+			<string>65E9AB80-CFA2-43F2-A97E-47472102A259.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -40,15 +40,15 @@
 			<key>signature</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>812770874.84584904</real>
+			<real>812822762.97181499</real>
 			<key>timeStoppedRecording</key>
-			<real>812770884.25653398</real>
+			<real>812822766.71591997</real>
 			<key>title</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>45D98A9F-3A45-43A5-AE41-E0F16CFA6F0F</string>
+			<string>65E9AB80-CFA2-43F2-A97E-47472102A259</string>
 		</dict>
-		<key>B941F554-517D-49DB-BDAC-546C9C6FB373</key>
+		<key>BBF648D8-8DB5-434A-9D34-E653AA863B62</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>B941F554-517D-49DB-BDAC-546C9C6FB373.xcactivitylog</string>
+			<string>BBF648D8-8DB5-434A-9D34-E653AA863B62.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,55 @@
 			<key>signature</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>812770933.37075901</real>
+			<real>812822745.43358004</real>
 			<key>timeStoppedRecording</key>
-			<real>812770936.72567594</real>
+			<real>812822758.50142801</real>
 			<key>title</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>B941F554-517D-49DB-BDAC-546C9C6FB373</string>
+			<string>BBF648D8-8DB5-434A-9D34-E653AA863B62</string>
+		</dict>
+		<key>FE10DD71-24D1-4106-A2D4-9D986BC76C28</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FE10DD71-24D1-4106-A2D4-9D986BC76C28.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Claude for Safari project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Claude for Safari</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>812822771.69486594</real>
+			<key>timeStoppedRecording</key>
+			<real>812822772.97519696</real>
+			<key>title</key>
+			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>FE10DD71-24D1-4106-A2D4-9D986BC76C28</string>
 		</dict>
 	</dict>
 </dict>

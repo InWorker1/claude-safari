@@ -7,9 +7,12 @@ let server, base, calls, fail;
 
 before(async () => {
   server = createBridgeServer({
-    complete: async (prompt, model) => {
+    complete: async (prompt, model, { onText }) => {
       calls.push({ prompt, model });
+      if (fail === 'midway') onText('partial');
       if (fail) throw new Error('claude crashed');
+      onText('echo: ');
+      onText(prompt);
       return `echo: ${prompt}`;
     },
   });
@@ -28,10 +31,10 @@ const ask = (body, { origin = EXT, path = '/ask', failModel = false } = {}) => {
   });
 };
 
-test('answers a prompt from the extension', async () => {
+test('streams the answer to the extension', async () => {
   const res = await ask({ prompt: 'hi' });
   assert.equal(res.status, 200);
-  assert.deepEqual(await res.json(), { answer: 'echo: hi' });
+  assert.equal(await res.text(), 'echo: hi');
   assert.equal(res.headers.get('access-control-allow-origin'), EXT);
 });
 
@@ -93,4 +96,10 @@ test('reports model failure as 500', async () => {
   const res = await ask({ prompt: 'hi' }, { failModel: true });
   assert.equal(res.status, 500);
   assert.deepEqual(await res.json(), { error: 'claude crashed' });
+});
+
+test('appends the error to the text when claude fails mid-stream', async () => {
+  const res = await ask({ prompt: 'hi' }, { failModel: 'midway' });
+  assert.equal(res.status, 200);
+  assert.match(await res.text(), /^partial[\s\S]*claude crashed/);
 });

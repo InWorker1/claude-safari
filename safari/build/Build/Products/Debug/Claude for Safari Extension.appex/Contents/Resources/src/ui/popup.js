@@ -30,7 +30,8 @@ form.addEventListener('submit', async (e) => {
   answer.className = '';
   answer.textContent = 'Думаю…';
   try {
-    answer.innerHTML = renderMarkdown(await ask(question.value, model.value));
+    const show = (text) => { answer.innerHTML = renderMarkdown(text); };
+    show(await ask(question.value, model.value, show));
   } catch (err) {
     answer.className = 'error';
     answer.textContent = err.message;

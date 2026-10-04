@@ -1,4 +1,5 @@
-export const makeBridgeClient = ({ url, fetch }) => async (prompt, model) => {
+// onText(answerSoFar) fires on every chunk the bridge streams back.
+export const makeBridgeClient = ({ url, fetch }) => async (prompt, model, onText = () => {}) => {
   let res;
   try {
     res = await fetch(url, {
@@ -10,7 +11,17 @@ export const makeBridgeClient = ({ url, fetch }) => async (prompt, model) => {
     throw new Error('Bridge is not running. Start it with: npm run bridge');
   }
 
-  const data = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(data.error ?? `Bridge error ${res.status}`);
-  return data.answer;
+  if (!res.ok) {
+    const data = await res.json().catch(() => ({}));
+    throw new Error(data.error ?? `Bridge error ${res.status}`);
+  }
+
+  const reader = res.body.pipeThrough(new TextDecoderStream()).getReader();
+  let answer = '';
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) return answer;
+    answer += value;
+    onText(answer);
+  }
 };

@@ -10,8 +10,10 @@
     .row { display: flex; justify-content: space-between; align-items: center; }
     button { padding: 4px 14px; }
     #answer { margin-top: 10px; max-height: 400px; overflow-y: auto; line-height: 1.45; }
-    #answer.error { color: #d33; white-space: pre-wrap; }
-    #answer > :first-child { margin-top: 0; }
+    #answer .error { color: #d33; white-space: pre-wrap; }
+    #answer .q { font-weight: 600; margin: 14px 0 4px; padding-top: 10px; border-top: 1px solid rgba(127, 127, 127, .3); white-space: pre-wrap; }
+    #answer > :first-child { margin-top: 0; padding-top: 0; border-top: none; }
+    #answer .a > :first-child { margin-top: 0; }
     #answer p, #answer ul, #answer ol, #answer pre { margin: 0 0 8px; }
     #answer ul, #answer ol { padding-left: 20px; }
     #answer li { margin: 2px 0; }

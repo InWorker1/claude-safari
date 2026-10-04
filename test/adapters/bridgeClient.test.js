@@ -5,14 +5,19 @@ import { makeBridgeClient } from '../../extension/src/adapters/bridgeClient.js';
 const url = 'http://127.0.0.1:8787/ask';
 const json = (status, body) => new Response(JSON.stringify(body), { status });
 
-test('posts prompt and model as JSON and returns the answer', async () => {
+test('posts prompt and model as JSON and streams the answer', async () => {
   let call;
+  const body = new ReadableStream({
+    start(c) { for (const s of ['he', 'llo']) c.enqueue(new TextEncoder().encode(s)); c.close(); },
+  });
   const complete = makeBridgeClient({
     url,
-    fetch: async (u, init) => { call = { u, init }; return json(200, { answer: 'hi' }); },
+    fetch: async (u, init) => { call = { u, init }; return new Response(body); },
   });
 
-  assert.equal(await complete('p', 'sonnet'), 'hi');
+  const seen = [];
+  assert.equal(await complete('p', 'sonnet', (t) => seen.push(t)), 'hello');
+  assert.deepEqual(seen, ['he', 'hello']);
   assert.equal(call.u, url);
   assert.equal(call.init.method, 'POST');
   assert.deepEqual(JSON.parse(call.init.body), { prompt: 'p', model: 'sonnet' });

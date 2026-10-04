@@ -13,10 +13,11 @@ command -v claude >/dev/null || { echo "❌ Нет Claude Code: https://claude.c
 
 # Сборка, если приложения ещё нет или код расширения новее сборки
 if [ ! -d "$APP" ] || [ -n "$(find extension -newer "$APP" -type f | head -1)" ]; then
-  echo "🔨 Собираю расширение…"
+  echo "🔨 Собираю расширение… (до минуты)"
+  # grep убирает безвредный шум Xcode 27 «IDERunDestination: Supported platforms … is empty»
   (cd "safari/Claude for Safari" && xcodebuild -project "Claude for Safari.xcodeproj" -scheme "Claude for Safari" \
     -configuration Debug -destination 'platform=macOS' -derivedDataPath ../build CODE_SIGN_IDENTITY="-" CODE_SIGN_STYLE=Manual DEVELOPMENT_TEAM="" \
-    build -quiet) || { echo "❌ Сборка не удалась. Нужен Xcode: см. INSTALL.md"; exit 1; }
+    build -quiet 2> >(grep -v 'IDERunDestination' >&2)) || { echo "❌ Сборка не удалась. Нужен Xcode: см. INSTALL.md"; exit 1; }
   touch "$APP"
 fi
 

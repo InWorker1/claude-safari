@@ -50,8 +50,19 @@ export function createBridgeServer({ complete }) {
       if (!prompt) throw new HttpError(400, 'Prompt is required');
       const model = body.model ?? DEFAULT_MODEL;
       if (!MODELS.includes(model)) throw new HttpError(400, `Model must be one of: ${MODELS.join(', ')}`);
-      send(res, 200, { answer: await complete(prompt, model) });
+      // Popup closed mid-answer → stop claude instead of letting it burn time in the background.
+      const aborter = new AbortController();
+      res.on('close', () => aborter.abort());
+      const start = () => res.headersSent || res.writeHead(200, { 'Content-Type': 'text/plain; charset=utf-8' });
+      const answer = await complete(prompt, model, {
+        signal: aborter.signal,
+        onText: (text) => { start(); res.write(text); },
+      });
+      if (!res.headersSent) { start(); res.write(answer); }
+      res.end();
     } catch (err) {
+      // Status is already sent once streaming began: append the error to the text instead.
+      if (res.headersSent) return res.end(`\n\n⚠️ ${err.message}`);
       if (err.status === 413) res.setHeader('Connection', 'close');
       send(res, err.status ?? 500, { error: err.message });
     }

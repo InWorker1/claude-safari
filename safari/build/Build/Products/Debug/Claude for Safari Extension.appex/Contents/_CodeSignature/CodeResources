@@ -14,7 +14,7 @@
 		</data>
 		<key>Resources/src/adapters/bridgeClient.js</key>
 		<data>
-		zU8FiLgJcCY235S71YvBBOq3VFc=
+		cVaGCH4KTc1OoTaClUY9UVqEVIg=
 		</data>
 		<key>Resources/src/adapters/browserPageReader.js</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Resources/src/application/askAboutPage.js</key>
 		<data>
-		DcVwIHK4lNYOzunjLI0Xo2y/6dY=
+		ZJJlTXjvqClt1nP++jltdP7a63I=
 		</data>
 		<key>Resources/src/domain/buildPrompt.js</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Resources/src/ui/popup.js</key>
 		<data>
-		SjVexKlLttpVOKJZUbe+8rb5uXw=
+		JA88zNpi8GDfhJk7sXihM9RAbf0=
 		</data>
 		<key>Resources/src/ui/renderMarkdown.js</key>
 		<data>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZRv/gssT7BfHmBt9YKJlsVco4ckqWe3kh3OxkLW4F48=
+			/IR+ePp14/0Fav20Tzasim3XEUx81gNRk87Sxce83Tg=
 			</data>
 		</dict>
 		<key>Resources/src/adapters/browserPageReader.js</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mGe6wb39jT3HKw+GtVR4257nBE2NTmfN1KdYFU/D1Cg=
+			n0H8XHe20cuNZJBNneqm0PIIBZBbgKmhdviN5yyPOD4=
 			</data>
 		</dict>
 		<key>Resources/src/domain/buildPrompt.js</key>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LWOlrqkj9RHLcrhqUBoic88DqhsQEKM3KsFWNq++7BI=
+			B7Hf9/ae1tiBRuiITkqrzg2qUx1NMJRgt+MQEg2cs6E=
 			</data>
 		</dict>
 		<key>Resources/src/ui/renderMarkdown.js</key>
