@@ -24,18 +24,36 @@ question.addEventListener('keydown', (e) => {
   if (e.key === 'Enter' && e.metaKey) form.requestSubmit();
 });
 
+// Lives as long as the popup: closing it starts a fresh chat.
+const history = [];
+
+const addBlock = (className, text) => {
+  const el = Object.assign(document.createElement('div'), { className, textContent: text });
+  answer.append(el);
+  return el;
+};
+
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
+  const q = question.value;
+  if (!q.trim()) return;
   button.disabled = true;
-  answer.className = '';
-  answer.textContent = 'Думаю…';
+  addBlock('q', q);
+  const reply = addBlock('a', 'Думаю…');
+  const show = (text) => {
+    reply.innerHTML = renderMarkdown(text);
+    answer.scrollTop = answer.scrollHeight;
+  };
   try {
-    const show = (text) => { answer.innerHTML = renderMarkdown(text); };
-    show(await ask(question.value, model.value, show));
+    const text = await ask(q, model.value, show, history);
+    show(text);
+    history.push({ question: q, answer: text });
+    question.value = '';
   } catch (err) {
-    answer.className = 'error';
-    answer.textContent = err.message;
+    reply.className = 'a error';
+    reply.textContent = err.message;
   } finally {
     button.disabled = false;
+    question.focus();
   }
 });

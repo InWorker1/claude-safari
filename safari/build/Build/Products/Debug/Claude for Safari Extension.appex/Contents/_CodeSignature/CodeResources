@@ -10,7 +10,7 @@
 		</data>
 		<key>Resources/popup.html</key>
 		<data>
-		KN32MzI8tNZhFYJ9WZXdZGx3v5c=
+		5wX+ywDvyaZjCKx4U9KRjrzD6mk=
 		</data>
 		<key>Resources/src/adapters/bridgeClient.js</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Resources/src/adapters/browserPageReader.js</key>
 		<data>
-		mq3kz2QUvAex0/Cw4bw9eEFai8U=
+		P7dBmVpeKdh8xfa8i9ER5Dpq8U8=
 		</data>
 		<key>Resources/src/application/askAboutPage.js</key>
 		<data>
-		ZJJlTXjvqClt1nP++jltdP7a63I=
+		U3KBZ2YokK67S8tkDaQq/681EgU=
 		</data>
 		<key>Resources/src/domain/buildPrompt.js</key>
 		<data>
-		BwDM2Od+bnv5KImvrQ71AVZz5U8=
+		K2nG1NSlUOUMkETreZGm9yarhec=
 		</data>
 		<key>Resources/src/ui/popup.js</key>
 		<data>
-		JA88zNpi8GDfhJk7sXihM9RAbf0=
+		MtkD0jM0vnmHWdFwz+N2v6BX+L0=
 		</data>
 		<key>Resources/src/ui/renderMarkdown.js</key>
 		<data>
@@ -68,7 +68,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EJUItihA2nWzx+q323GCDvOMlAp0Gr5/Nz+FDL3chkg=
+			12wIMkXcCP55PoBEoOO5b8/R9GHS1I1OKTDR1QBcRQI=
 			</data>
 		</dict>
 		<key>Resources/src/adapters/bridgeClient.js</key>
@@ -82,28 +82,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m2nY1TkCxzhaCKoK95zZv3O/6f2NBREsAX3G7nI6/bs=
+			XfmyHWYLzyd/w1jpwZqsIXcAhsvGGUQjaLqCfHNUwv4=
 			</data>
 		</dict>
 		<key>Resources/src/application/askAboutPage.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n0H8XHe20cuNZJBNneqm0PIIBZBbgKmhdviN5yyPOD4=
+			oA1YrlnEKWYJJ70OZhC8QJWMy6NYJu60lyVnZz8XYxY=
 			</data>
 		</dict>
 		<key>Resources/src/domain/buildPrompt.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VA+TxwTFkhjHQLFlC8QXD63BM4iwn7gwHCCTNcJWMYM=
+			a4X8pWhfPk+0VtMnD/7AATg8K1Oq0feDsPD2HSo3jU8=
 			</data>
 		</dict>
 		<key>Resources/src/ui/popup.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B7Hf9/ae1tiBRuiITkqrzg2qUx1NMJRgt+MQEg2cs6E=
+			9qCGpePFApPrY6phwa6nqc4gMoGVHHHP6d4E2vDy7bQ=
 			</data>
 		</dict>
 		<key>Resources/src/ui/renderMarkdown.js</key>
