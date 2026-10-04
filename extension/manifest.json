@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Claude for Safari",
+  "version": "0.1.0",
+  "description": "Ask Claude about the current page through the local Claude Code bridge.",
+  "action": { "default_popup": "popup.html", "default_title": "Ask Claude" },
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["http://127.0.0.1:8787/*"]
+}

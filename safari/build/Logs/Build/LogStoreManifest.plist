@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>13</integer>
+	<key>logs</key>
+	<dict>
+		<key>7F7F2A4E-20BD-46DA-BA2F-0D7B6F1EB91C</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7F7F2A4E-20BD-46DA-BA2F-0D7B6F1EB91C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Claude for Safari project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Claude for Safari</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>812766265.330302</real>
+			<key>timeStoppedRecording</key>
+			<real>812766266.94217598</real>
+			<key>title</key>
+			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>7F7F2A4E-20BD-46DA-BA2F-0D7B6F1EB91C</string>
+		</dict>
+		<key>DDEC624B-B8CA-4929-B480-9671CB342820</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DDEC624B-B8CA-4929-B480-9671CB342820.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>Claude for Safari project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>Claude for Safari</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>812767208.82168996</real>
+			<key>timeStoppedRecording</key>
+			<real>812767210.40244198</real>
+			<key>title</key>
+			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>DDEC624B-B8CA-4929-B480-9671CB342820</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

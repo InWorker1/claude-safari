@@ -1,0 +1,9 @@
+{
+  "name": "claude-safari",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "bridge": "node bridge/main.js"
+  }
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <style>
+    :root { color-scheme: light dark; font: 13px -apple-system, system-ui, sans-serif; }
+    body { width: 360px; margin: 0; padding: 12px; box-sizing: border-box; }
+    form { display: flex; flex-direction: column; gap: 8px; }
+    textarea { resize: vertical; min-height: 60px; font: inherit; padding: 6px; }
+    .row { display: flex; justify-content: space-between; align-items: center; }
+    button { padding: 4px 14px; }
+    #answer { white-space: pre-wrap; margin-top: 10px; max-height: 400px; overflow-y: auto; }
+    #answer.error { color: #d33; }
+  </style>
+</head>
+<body>
+  <form>
+    <label for="question">Вопрос про эту страницу</label>
+    <textarea id="question" placeholder="Кратко перескажи…" autofocus></textarea>
+    <div class="row">
+      <select id="model" aria-label="Модель">
+        <option value="haiku">Haiku: быстро</option>
+        <option value="sonnet">Sonnet: умнее</option>
+      </select>
+      <button type="submit">Спросить ⌘↵</button>
+    </div>
+  </form>
+  <div id="answer" aria-live="polite"></div>
+  <script type="module" src="src/ui/popup.js"></script>
+</body>
+</html>
