@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/Claude for Safari-primary.dia",
+    "emit-module-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/Claude for Safari-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/Claude for Safari-primary-emit-module.dia",
+    "pch" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/Claude for Safari-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/Claude for Safari-primary.swiftdeps"
+  },
+  "/Users/iloveyou/Documents/work/claude-safari/safari/Claude for Safari/Claude for Safari/AppDelegate.swift" : {
+    "const-values" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/iloveyou/Documents/work/claude-safari/safari/Claude for Safari/Claude for Safari/ViewController.swift" : {
+    "const-values" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  },
+  "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

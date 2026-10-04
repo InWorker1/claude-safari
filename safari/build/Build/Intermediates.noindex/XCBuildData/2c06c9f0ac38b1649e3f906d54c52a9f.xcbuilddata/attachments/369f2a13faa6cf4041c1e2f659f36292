@@ -1,0 +1,19 @@
+{
+  "" : {
+    "diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/Claude for Safari Extension-primary.dia",
+    "emit-module-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/Claude for Safari Extension-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/Claude for Safari Extension-primary-emit-module.dia",
+    "pch" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/Claude for Safari Extension-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/Claude for Safari Extension-primary.swiftdeps"
+  },
+  "/Users/iloveyou/Documents/work/claude-safari/safari/Claude for Safari/Claude for Safari Extension/SafariWebExtensionHandler.swift" : {
+    "const-values" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.swiftconstvalues",
+    "dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.d",
+    "diagnostics" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.dia",
+    "index-unit-output-path" : "/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.o",
+    "llvm-bc" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.bc",
+    "object" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.o",
+    "swift-dependencies" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler.swiftdeps",
+    "swiftmodule" : "/Users/iloveyou/Documents/work/claude-safari/safari/build/Build/Intermediates.noindex/Claude for Safari.build/Debug/Claude for Safari Extension.build/Objects-normal/arm64/SafariWebExtensionHandler~partial.swiftmodule"
+  }
+}
