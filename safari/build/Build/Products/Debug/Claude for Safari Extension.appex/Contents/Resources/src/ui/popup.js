@@ -21,7 +21,8 @@ model.addEventListener('change', () => {
 });
 
 question.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter' && e.metaKey) form.requestSubmit();
+  // requestSubmit() ignores the disabled button, so guard here too.
+  if (e.key === 'Enter' && e.metaKey && !button.disabled) form.requestSubmit();
 });
 
 // Lives as long as the popup: closing it starts a fresh chat.
@@ -50,8 +51,9 @@ form.addEventListener('submit', async (e) => {
     history.push({ question: q, answer: text });
     question.value = '';
   } catch (err) {
-    reply.className = 'a error';
-    reply.textContent = err.message;
+    // Keep a partially streamed answer on screen; it just never enters history.
+    if (reply.textContent === 'Думаю…') reply.remove();
+    addBlock('a error', err.message);
   } finally {
     button.disabled = false;
     question.focus();

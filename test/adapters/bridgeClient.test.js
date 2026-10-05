@@ -32,3 +32,9 @@ test('explains that the bridge is not running when fetch fails', async () => {
   const complete = makeBridgeClient({ url, fetch: async () => { throw new TypeError('Load failed'); } });
   await assert.rejects(complete('p'), /npm run bridge/);
 });
+
+test('rejects when the bridge appends an error after streaming began', async () => {
+  const body = new Response('half an answer\n\n⚠️ Claude timed out').body;
+  const complete = makeBridgeClient({ url, fetch: async () => new Response(body) });
+  await assert.rejects(complete('p'), { message: 'Claude timed out' });
+});
