@@ -48,7 +48,7 @@
 			<key>uniqueIdentifier</key>
 			<string>0948E107-D446-441A-8537-4909E6D4E7E6</string>
 		</dict>
-		<key>8F98205E-0284-4C35-BD8A-1EA7314F6FE8</key>
+		<key>E22D669A-FEDA-4EDE-9809-C37266184E9C</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -57,7 +57,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8F98205E-0284-4C35-BD8A-1EA7314F6FE8.xcactivitylog</string>
+			<string>E22D669A-FEDA-4EDE-9809-C37266184E9C.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -82,13 +82,13 @@
 			<key>signature</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>812823501.48528397</real>
+			<real>812902707.98364198</real>
 			<key>timeStoppedRecording</key>
-			<real>812823505.05826199</real>
+			<real>812902711.17454195</real>
 			<key>title</key>
 			<string>Building project Claude for Safari with scheme Claude for Safari and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>8F98205E-0284-4C35-BD8A-1EA7314F6FE8</string>
+			<string>E22D669A-FEDA-4EDE-9809-C37266184E9C</string>
 		</dict>
 	</dict>
 </dict>

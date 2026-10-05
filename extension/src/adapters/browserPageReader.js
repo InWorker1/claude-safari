@@ -10,7 +10,7 @@ export const makeBrowserPageReader = (browser) => async () => {
     });
   } catch {
     // Safari: tab opened before the extension was (re)enabled, a system page, or site access set to "Deny".
-    throw new Error('Нет доступа к вкладке. Обнови страницу (⌘R) и открой попап снова. Не помогло — Safari → Настройки → Расширения → Claude for Safari → разрешить на этом сайте.');
+    throw new Error('Нет доступа к вкладке. Обнови страницу (⌘R) и открой попап снова. Не помогло — Safari → Настройки → Расширения → Claude for Safari → разрешить на этом сайте. Или задай вопрос с префиксом /q — он не читает страницу.');
   }
   return { title: tab.title ?? '', url: tab.url ?? '', text: result ?? '' };
 };

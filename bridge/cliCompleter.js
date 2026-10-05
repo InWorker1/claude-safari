@@ -9,7 +9,7 @@ export const CLAUDE_ARGS = [
   '--strict-mcp-config',
   '--no-session-persistence',
   '--output-format', 'stream-json', '--verbose', '--include-partial-messages',
-  '--system-prompt', 'You answer questions about a web page the user is viewing. Reply in the language of the question. Be concise.',
+  '--system-prompt', 'You are a helpful assistant in a Safari extension. The user may ask anything. The current web page, when provided, is optional context: use it when the question is about the page, otherwise answer from general knowledge. Reply in the language of the question. Be concise.',
 ];
 
 // Streams answer text to onText as claude writes it; resolves with the full answer. Aborting `signal` kills claude.
